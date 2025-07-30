@@ -7,13 +7,14 @@ import Contact from "../components/contact";
 import Footer from "../components/Footer";
 import Navbar from "../components/BottomNavbar";
 import BottomNavbar from "../components/BottomNavbar";
+import AboutMe from "../components/Aboutme";
 
 const Home = () => {
   
   return (
     <div className="scroll-smooth">
      <section id="home"><Portfolio /></section>
-      <section id="about"><Aboutme /></section>
+      <section id="about"><AboutMe /></section>
       <section id="skills"><Skills /></section>
       <section id="services"><Services /></section>
       <section id="portfolio"><Work /></section>
