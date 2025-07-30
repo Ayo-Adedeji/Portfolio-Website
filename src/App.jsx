@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import HeroSection from "./components/HeroSection";
 import Home from "./pages/Home";
+import Main from "./components/Main";
 
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={ <HeroSection/> }/>
+      <Route path="/" element={ <Main  /> }/>
       <Route path="/home" element= {<Home/>} />
     </Routes>
     

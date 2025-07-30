@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import img from "../assets/img.png";
 import { Link, useNavigate } from "react-router-dom";
 
-const HeroSection = () => {
+const Main = () => {
 
   // const [name, setName] = useState("")
   // const [loading, setLoading] = useState(false)
@@ -88,4 +88,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Main;

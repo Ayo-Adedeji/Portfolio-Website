@@ -1,5 +1,4 @@
 import Aboutme from "../components/Aboutme";
-import HeroSection from "../components/HeroSection";
 import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import Services from "../components/Services";
