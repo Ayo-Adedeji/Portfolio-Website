@@ -3,7 +3,7 @@ import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import Services from "../components/Services";
 import Work from "../components/Work";
-import Contact from "../components/contact";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Navbar from "../components/BottomNavbar";
 import BottomNavbar from "../components/BottomNavbar";
