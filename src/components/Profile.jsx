@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/img.png";
+import profilePic from "../assets/profilePic.png";
 import useScrollAnimation from "./useScrollAnimation";
 
 const Profile = () => {
@@ -17,9 +17,9 @@ const Profile = () => {
         {/* Main content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center scroll-reveal">
           {/* Image */}
-          <div className="flex justify-center">
+          <div className="flex justify-center bg-secondary mix-blend-multiply opacity-95">
             <img
-              src={img}
+              src={profilePic}
               alt="About me"
               className="w-60 sm:w-72 md:w-80 lg:w-96 object-contain"
             />
@@ -30,8 +30,14 @@ const Profile = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center font-semibold mb-8">
               {[
                 { title: "Experience", lines: ["2+ Years"] },
-                { title: "Clients", lines: ["10+ Satisfied", "Clients Globally"] },
-                { title: "Projects", lines: ["Multiple Projects", "completed"] },
+                {
+                  title: "Clients",
+                  lines: ["10+ Satisfied", "Clients Globally"],
+                },
+                {
+                  title: "Projects",
+                  lines: ["Multiple Projects", "completed"],
+                },
               ].map((item, i) => (
                 <div
                   key={i}
@@ -47,19 +53,20 @@ const Profile = () => {
             </div>
 
             <p className="mb-8 text-center font-medium text-base sm:text-lg">
-              I am a highly motivated software engineering professional with experience in
-              developing, deploying, and maintaining web applications. Skilled in JavaScript,
-              TypeScript, React, NextJS, Tailwind CSS, Node.js, ExpressJS, MySQL, MongoDB, and more.
-              Experienced in agile development and passionate about building efficient software
-              solutions.
+              I’m a full-stack developer with a passion for building functional,
+              accessible, and beautiful digital experiences. My core tech stack
+              includes React.js for dynamic frontends and Node.js for robust
+              backend services — but my real strength is in thinking deeply
+              about user needs and translating that into purposeful code.
             </p>
 
             <div className="flex justify-center md:justify-start scroll-reveal">
               <a
-              href="https://wa.me/2349031978634?text=Hi%20there%2C%20I'm%20interested%20in%20your%20work"
-            target="_blank"
-            rel="noopener noreferrer" 
-              className="bg-primary text-textMain px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-300 hover:text-textMuted transition-all duration-500 ease-in-out">
+                href="https://wa.me/2349031978634?text=Hi%20there%2C%20I'm%20interested%20in%20your%20work"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary text-textMain px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-300 hover:text-textMuted transition-all duration-500 ease-in-out"
+              >
                 Let's Talk
               </a>
             </div>
