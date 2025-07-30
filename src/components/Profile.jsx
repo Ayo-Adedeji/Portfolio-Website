@@ -2,7 +2,7 @@ import React from "react";
 import img from "../assets/img.png";
 import useScrollAnimation from "./useScrollAnimation";
 
-const AboutMe = () => {
+const Profile = () => {
   useScrollAnimation();
 
   return (
@@ -70,4 +70,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Profile;
