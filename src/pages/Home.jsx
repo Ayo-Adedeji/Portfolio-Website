@@ -11,6 +11,8 @@ import AboutMe from "../components/Profile";
 import Profile from "../components/Profile";
 
 const Home = () => {
+
+  
   
   return (
     <div className="scroll-smooth">

@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <footer className="relative h-[50vh] bg-primary py-10">
       <ul className="flex flex-col items-center text-white gap-4 p-6 md:flex-row md:justify-center md:gap-8">
-        <li>Home</li>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Services</li>
-        <li>Portfolio</li>
-        <li>Testimonials</li>
-        <li>Contact</li>
+        <li><a href="#home" className="hover:underline hover:text-accent">Home</a></li>
+        <li><a href="#about" className="hover:underline hover:text-accent">About</a></li>
+        <li><a href="#skills" className="hover:underline hover:text-accent">Skills</a></li>
+      <li><a href="#services" className="hover:underline hover:text-accent">Services</a></li>
+        <li><a href="#portfolio" className="hover:underline hover:text-accent">Portfolio</a></li>
+     <li><a href="#testimonials" className="hover:underline hover:text-accent">Testimonials</a></li>
+        <li><a href="#contact" className="hover:underline hover:text-accent">Contact</a></li>
       </ul>
 
 

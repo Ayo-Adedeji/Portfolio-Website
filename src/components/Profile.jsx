@@ -14,16 +14,25 @@ const Profile = () => {
           <h1 className="font-bold text-3xl sm:text-4xl">About Me</h1>
         </div>
 
-        {/* Main content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center scroll-reveal">
-          {/* Image */}
-          <div className="flex justify-center bg-secondary mix-blend-multiply opacity-95">
-            <img
-              src={profilePic}
-              alt="About me"
-              className="w-60 sm:w-72 md:w-80 lg:w-96 object-contain"
-            />
-          </div>
+      {/* Main content */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center scroll-reveal">
+  
+  {/* Image Wrapper */}
+  <div className="flex justify-center">
+    <div className="w-60 sm:w-72 md:w-80 lg:w-96 h-60 sm:h-72 md:h-80 lg:h-96 
+      rounded-full overflow-hidden border-4 border-primary bg-secondary 
+      shadow-[0_0_20px_4px_rgba(0,150,255,0.6)] transition-all duration-500 ease-in-out">
+      
+      <img
+        src={profilePic}
+        alt="About me"
+        className="w-full h-full object-cover bg-primary"
+      />
+    </div>
+  </div>
+
+
+
 
           {/* Info */}
           <div className="scroll-reveal">
