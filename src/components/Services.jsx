@@ -24,11 +24,11 @@ const Services = () => {
               <h1>Frontend</h1>
             </div>
             <div className="space-y-2">
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Captivating UI Design: Create engaging interfaces.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Flawless Frontend Development: Implement designs seamlessly.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Lightning-Fast Performance: Optimize for speed and responsiveness.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Inclusive Accessibility: Ensure accessibility for all users.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Collaborative Excellence: Drive success through teamwork and communication.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Captivating UI Design: Create engaging interfaces.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Flawless Frontend Development: Implement designs seamlessly.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Lightning-Fast Performance: Optimize for speed and responsiveness.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Inclusive Accessibility: Ensure accessibility for all users.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Collaborative Excellence: Drive success through teamwork and communication.</p>
             </div>
           </div>
 
@@ -39,12 +39,12 @@ const Services = () => {
               <h1>Backend</h1>
             </div>
             <div className="space-y-2">
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Database Management: Efficiently handle data storage and retrieval.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />API Development: Build scalable and secure APIs.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Performance Optimization: Fine-tune for speed and reliability.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Security Implementation: Protect sensitive data.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Automated Testing: Ensure reliable software delivery.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Cloud Integration: Seamlessly integrate with cloud services for scalability and flexibility.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Database Management: Efficiently handle data storage and retrieval.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />API Development: Build scalable and secure APIs.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Performance Optimization: Fine-tune for speed and reliability.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Security Implementation: Protect sensitive data.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Automated Testing: Ensure reliable software delivery.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Cloud Integration: Seamlessly integrate with cloud services for scalability and flexibility.</p>
             </div>
           </div>
 
@@ -55,12 +55,12 @@ const Services = () => {
               <h1>Hosting</h1>
             </div>
             <div className="space-y-2">
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Reliable Hosting: Secure and dependable website hosting.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Scalable Infrastructure: Flexible resources for changing demands.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Performance Monitoring: Constantly optimize for speed and uptime.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Security Measures: Strong protection against cyber threats.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />Automated Testing: Ensure reliable software delivery.</p>
-              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1" />24/7 Support: Always available for assistance.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Reliable Hosting: Secure and dependable website hosting.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Scalable Infrastructure: Flexible resources for changing demands.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Performance Monitoring: Constantly optimize for speed and uptime.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Security Measures: Strong protection against cyber threats.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />Automated Testing: Ensure reliable software delivery.</p>
+              <p className="flex items-start gap-2"><IoCheckmarkDoneSharp className="mt-1 text-gray-500" />24/7 Support: Always available for assistance.</p>
             </div>
           </div>
         </div>
