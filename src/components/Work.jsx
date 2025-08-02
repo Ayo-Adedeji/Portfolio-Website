@@ -16,7 +16,7 @@ const Work = () => {
     },
     {
       img: weather,
-      text: "Weather",
+      text: "Weather App",
       github: "https://github.com/Ayo-Adedeji/Weather.git",
       live: "https://ayo-adedeji.github.io/Weather/",
     },
@@ -54,7 +54,7 @@ const Work = () => {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-textMain hover:bg-accentSoft hover:cursor-pointer border border-border rounded-xl px-6 py-3 text-center"
+                className="bg-primary text-textMain  hover:bg-blue-600 hover:bg-accentSoft hover:cursor-pointer border border-border rounded-xl px-6 py-3 text-center"
               >
                 Github
               </a>
@@ -62,7 +62,7 @@ const Work = () => {
                 href={project.live}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-textMain hover:bg-accentSoft hover:cursor-pointer border border-border rounded-xl px-6 py-3 text-center"
+                className="bg-primary text-textMain hover:bg-accentSoft hover:bg-blue-600 hover:cursor-pointer border border-border rounded-xl px-6 py-3 text-center"
               >
                 Visit Website
               </a>
@@ -72,7 +72,7 @@ const Work = () => {
       </div>
 
       <div className="mt-12 flex justify-center scroll-reveal">
-        <button className="bg-primary text-textMain hover:bg-accentSoft hover:cursor-pointer rounded-2xl px-8 py-4 text-lg font-semibold">
+        <button className="bg-primary text-textMain hover:bg-accentSoft  hover:bg-blue-600 hover:cursor-pointer rounded-2xl px-8 py-4 text-lg font-semibold">
           More Projects
         </button>
       </div>

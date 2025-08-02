@@ -30,7 +30,7 @@ const Skills = () => {
           { src: git, alt: "git_logo", name: "Git" },
           { src: git, alt: "github_logo", name: "GitHub" },
           { src: tailwind, alt: "tailwind_logo", name: "TailwindCSS", className: "w-24 h-10" },
-          { src: nodejs, alt: "node_logo", name: "NodeJS", className: "w-20" },
+          { src: nodejs, alt: "node_logo", name: "NodeJS", className: "w-12" },
           { src: adobe, alt: "AI_logo", name: "Illustrator", className: "w-20" },
         ].map((item, i) => (
           <article

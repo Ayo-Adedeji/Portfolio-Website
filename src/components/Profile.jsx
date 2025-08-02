@@ -74,7 +74,7 @@ const Profile = () => {
                 href="https://wa.me/2349031978634?text=Hi%20there%2C%20I'm%20interested%20in%20your%20work"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-textMain px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-300 hover:text-textMuted transition-all duration-500 ease-in-out"
+                className="bg-primary text-textMain px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-300 hover:text-textMuted hover:bg-blue-600 transition-all duration-500 ease-in-out"
               >
                 Let's Talk
               </a>
