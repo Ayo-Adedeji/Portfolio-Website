@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react";
 import bgImage from "../assets/bgImage.jpg";
-import useScrollAnimation from './useScrollAnimation';
-import { Typewriter } from 'react-simple-typewriter';
+import useScrollAnimation from "./useScrollAnimation";
+import { Typewriter } from "react-simple-typewriter";
+import Omotiba_Resume from "../assets/Omotiba_Resume.pdf";
 
 const Portfolio = () => {
   useScrollAnimation();
@@ -30,9 +31,9 @@ const Portfolio = () => {
             <span className="text-accent inline-block">
               <Typewriter
                 words={[
-                  'Full-Stack Developer',
-                  'Frontend Developer',
-                  'Backend Developer',
+                  "Full-Stack Developer",
+                  "Frontend Developer",
+                  "Backend Developer",
                 ]}
                 loop={true}
                 cursor
@@ -45,8 +46,16 @@ const Portfolio = () => {
             </span>
           </p>
 
-          <div className="pt-4">
-            <a 
+          <div className="pt-4 space-x-5">
+            <a
+              href={Omotiba_Resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary px-6 py-3 rounded-md text-base sm:text-lg text-textMain hover:text-accent font-semibold hover:bg-blue-600 transition-all duration-500 ease-in-out"
+            >
+              Download CV
+            </a>
+            <a
               href="https://wa.me/2349031978634?text=Hi%20there%2C%20I'm%20interested%20in%20your%20work"
               target="_blank"
               rel="noopener noreferrer"
