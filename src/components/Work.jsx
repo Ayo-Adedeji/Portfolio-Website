@@ -2,6 +2,8 @@ import React from "react";
 import furniture from "../assets/furniture.png";
 import weather from "../assets/weather.png";
 import resume from "../assets/resume.png";
+import step from "../assets/step.jpg";
+
 import useScrollAnimation from "./useScrollAnimation";
 
 const Work = () => {
@@ -9,7 +11,7 @@ const Work = () => {
 
   const projects = [
       {
-      img: furniture,
+      img: step,
       text: "Step-Up Summit",
       // github: "https://github.com/Ayo-Adedeji/Furniture-Store.git",
       live: "https://stepupsummit.org",
