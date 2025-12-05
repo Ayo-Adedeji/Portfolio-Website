@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import furniture from "../assets/furniture.png";
 import weather from "../assets/weather.png";
 import resume from "../assets/resume.png";
@@ -8,6 +8,12 @@ const Work = () => {
   useScrollAnimation();
 
   const projects = [
+      {
+      img: furniture,
+      text: "Step-Up Summit",
+      // github: "https://github.com/Ayo-Adedeji/Furniture-Store.git",
+      live: "https://stepupsummit.org",
+    },
     {
       img: furniture,
       text: "Shine Furniture App",
@@ -40,7 +46,7 @@ const Work = () => {
           <div
             key={index}
             className="border-emerald-400 p-6 rounded-xl hover:border-accent transition-all duration-300 scroll-reveal"
-            style={{ boxShadow: '0 0 0 3px rgba(100, 255, 218, 0.2)' }}
+            style={{ boxShadow: "0 0 0 3px rgba(100, 255, 218, 0.2)" }}
           >
             <img
               className="w-full max-w-[320px] mx-auto rounded-3xl mb-4"
